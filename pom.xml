@@ -22,5 +22,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<plugins>
+        <plugin>
+            <groupId>com.ravi.cal</groupId>
+            <artifactId>RaviCalculator</artifactId>
+            <version>1.0</version>
+            <configuration>
+                <mainClass>com.ravi.cal.RaviCalculator.Calculator</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
 </project>
 
